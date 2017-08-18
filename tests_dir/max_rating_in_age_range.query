@@ -1,1 +1,0 @@
-(σ age<25(people) ∪ σ age>30(people)) ⋈ ratings-πid,name,chief,age,rating(σ rating<r((ρid➡i,rating➡r(π id,rating((σ age<25(people) ∪ σ age>30(people)) ⋈ ratings))) * (σ age<25(people) ∪ σ age>30(people)) ⋈ ratings))

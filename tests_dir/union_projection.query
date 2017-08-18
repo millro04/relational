@@ -1,1 +1,0 @@
-πname,skill(σ skill == 'Perl' (people⋈skills)) ∪ πname,skill(σ skill == 'C' (people⋈skills))
