@@ -1,6 +1,7 @@
 relational (2.6-1) UNRELEASED; urgency=low
 
   * Bump compat to 10
+  * New upstream release
 
  -- Salvo 'LtWorf' Tomaselli <tiposchi@tiscali.it>  Fri, 18 Aug 2017 17:00:37 +0200
 
