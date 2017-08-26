@@ -21,7 +21,6 @@ Description: Educational tool for relational algebra (standalone module)
 Package: relational
 Architecture: all
 Depends: ${misc:Depends}, ${python3:Depends}, python3-relational (>= ${binary:Version}), python3-pyqt5
-Recommends: python3-pyqt5.qtwebkit
 Description: Educational tool for relational algebra (graphical user interface)
  Relational is primarily a tool to provide a workspace for experimenting with
  relational algebra, an offshoot of first-order logic.
