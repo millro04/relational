@@ -289,14 +289,48 @@ def exec_query(command: str) -> None:
     else:
         printrel = True
 
+    if command.startswith("select"):
+        #Manipulate the command now
+        restOfCommand = command[6:]
+
+        restOfCommand = restOfCommand[1:-1]
+
+        #At this point the string should be "student, SName='amy'"
+
+        restOfCommand = restOfCommand.split(",")
+
+        table = restOfCommand[0]
+
+        q = restOfCommand[1].lstrip()
+        #table should be student
+        #q should be SName='amy'
+        #split q on =
+        qList = q.split("=") #should be [SName, 'amy']
+
+        newQ = qList[0] + "==" + qList[1] #should be "SName=='amy'
+
+        command = "_SELECTION("
+        command += newQ
+        command += ") "
+        command += "("
+        command += table
+        command += ")"
+
     # Performs replacements for weird operators
     command = replacements(command)
-
     # Finds the name in where to save the query
     parts = command.split('=', 1)
     relname,query = maintenance.UserInterface.split_query(command)
-
+    # Manipulate the query before it goes into parser.parse
     # Execute query
+
+    '''
+
+1)  σ (SName=='amy') (student)
+2) _SELECTION(SName=='amy') (student)
+3) select(student, SName='amy')
+
+    '''
     try:
         pyquery = parser.parse(query)
         result = pyquery(relations)
