@@ -277,9 +277,11 @@ class Relation (object):
         newt.content = self.content.union(other.content)
         return newt
 
+
     def thetajoin(self, other: 'Relation', expr: str) -> 'Relation':
         '''Defined as product and then selection with the given expression.'''
         return self.product(other).selection(expr)
+
 
     def outer(self, other: 'Relation') -> 'Relation':
         '''Does a left and a right outer join and returns their union.'''
@@ -374,6 +376,14 @@ class Relation (object):
                     newt.content.add(tuple(item))
 
         return newt
+
+    def semijoin(self, other: 'Relation', expr: str) -> 'Relation':
+        s_headers = tuple(set(self.header) - set(other.header))
+        print(s_headers)
+        return self.product(other).selection(expr).projection(s_headers)
+
+
+
 
     def __eq__(self, other):
         if not isinstance(other, relation):

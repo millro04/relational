@@ -110,7 +110,7 @@ class SimpleCompleter:
 relations = {}
 completer = SimpleCompleter(
     ['SURVEY', 'LIST', 'LOAD ', 'UNLOAD ', 'HELP ', 'QUIT', 'SAVE ', '_PRODUCT ', '_UNION ', '_INTERSECTION ',
-     '_DIFFERENCE ', '_JOIN ', '_LJOIN ', '_RJOIN ', '_FJOIN ', '_PROJECTION ', '_RENAME_TO ', '_SELECTION ', '_RENAME ', '_DIVISION '])
+     '_DIFFERENCE ', '_JOIN ', '_LJOIN ', '_RJOIN ', '_FJOIN ', '_PROJECTION ', '_RENAME_TO ', '_SELECTION ', '_RENAME ', '_DIVISION ', '_SEMIJOIN '])
 
 
 def load_relation(filename: str, defname:Optional[str]=None) -> Optional[str]:
@@ -268,6 +268,7 @@ def replacements(query: str) -> str:
         ('_SELECTION', parser.SELECTION),
         ('_RENAME', parser.RENAME),
         ('_DIVISION', parser.DIVISION),
+        ('_SEMIJOIN', parser.SEMIJOIN),
     )
     for asciiop, op in rules:
         query = query.replace(asciiop, op)
@@ -290,6 +291,7 @@ def exec_query(command: str) -> None:
         printrel = True
 
     if command.startswith("select"):
+        command = command.replace(" ", "")
         #Manipulate the command now
         restOfCommand = command[6:]
 
@@ -321,6 +323,7 @@ def exec_query(command: str) -> None:
     # Finds the name in where to save the query
     parts = command.split('=', 1)
     relname,query = maintenance.UserInterface.split_query(command)
+    print("Query:", query)
     # Manipulate the query before it goes into parser.parse
     # Execute query
 

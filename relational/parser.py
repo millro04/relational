@@ -45,15 +45,16 @@ PROJECTION = 'π'
 SELECTION = 'σ'
 RENAME = 'ρ'
 ARROW = '➡'
+SEMIJOIN = 'semijoin'
 
 b_operators = (PRODUCT, DIFFERENCE, UNION, INTERSECTION, DIVISION,
-               JOIN, JOIN_LEFT, JOIN_RIGHT, JOIN_FULL)  # List of binary operators
+               JOIN, JOIN_LEFT, JOIN_RIGHT, JOIN_FULL, SEMIJOIN)  # List of binary operators
 u_operators = (PROJECTION, SELECTION, RENAME)  # List of unary operators
 
 # Associates operator with python method
 op_functions = {
     PRODUCT: 'product', DIFFERENCE: 'difference', UNION: 'union', INTERSECTION: 'intersection', DIVISION: 'division', JOIN: 'join',
-    JOIN_LEFT: 'outer_left', JOIN_RIGHT: 'outer_right', JOIN_FULL: 'outer', PROJECTION: 'projection', SELECTION: 'selection', RENAME: 'rename'}
+    JOIN_LEFT: 'outer_left', JOIN_RIGHT: 'outer_right', JOIN_FULL: 'outer', SEMIJOIN: 'semijoin', PROJECTION: 'projection', SELECTION: 'selection', RENAME: 'rename'}
 
 
 class TokenizerException (Exception):
@@ -111,6 +112,7 @@ class Node:
         if expression is None or len(expression) == 0:
             return
 
+        print("Expression= ", expression)
         # If the list contains only a list, it will consider the lower level list.
         # This will allow things like ((((((a))))) to work
         while len(expression) == 1 and isinstance(expression[0], list):
@@ -125,6 +127,10 @@ class Node:
                     u"'%s' is not a valid relation name" % self.name)
             return
 
+        '''
+
+        [x, semijoin, y]
+        '''
         # Expression from right to left, searching for binary operators
         # this means that binary operators have lesser priority than
         # unary operators.
@@ -135,12 +141,20 @@ class Node:
         # Since it searches for strings, and expressions into parenthesis are
         # within sub-lists, they won't be found here, ensuring that they will
         # have highest priority.
+        print("Operators", b_operators)
         for i in range(len(expression) - 1, -1, -1):
+            print("Exp", expression[i])
             if expression[i] in b_operators:  # Binary operator
                 self.kind = BINARY
                 self.name = expression[i]
-
+                #At this point, i should be 0
+                #len(epression[0:0]
                 if len(expression[:i]) == 0:
+                    print("About to fail")
+                    print(expression)
+                    print(i)
+
+                    print(expression[:i])
                     raise ParserException(
                         u"Expected left operand for '%s'" % self.name)
 
