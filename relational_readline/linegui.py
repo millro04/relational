@@ -332,12 +332,13 @@ def exec_query(command: str) -> None:
         table_name1 = rest_q[0].strip()
         table_name2 = rest_q[1].strip()
         list_of_fields = rest_q[2][:-1].strip()
+        if "==" not in list_of_fields:
+            #add in the second equal sign
+            equal_index = list_of_fields.find("=")
+            list_of_fields = list_of_fields[:equal_index] + "=" + list_of_fields[equal_index:]
         first_command = table_name1 + " semijoin " + table_name2
-        print("First", first_command)
         tree = parser.tree(first_command)
-        print("Tree", tree)
-        print(relations[table_name1])
-        relations[table_name1].semijoin(relations[table_name2],list_of_fields)
+        print(relations[table_name1].semijoin(relations[table_name2],list_of_fields))
         return
 
     # Performs replacements for weird operators

@@ -112,7 +112,6 @@ class Node:
         if expression is None or len(expression) == 0:
             return
 
-        print("Expression= ", expression)
         # If the list contains only a list, it will consider the lower level list.
         # This will allow things like ((((((a))))) to work
         while len(expression) == 1 and isinstance(expression[0], list):
@@ -155,20 +154,14 @@ class Node:
         # Since it searches for strings, and expressions into parenthesis are
         # within sub-lists, they won't be found here, ensuring that they will
         # have highest priority.
-        print("Operators", b_operators)
         for i in range(len(expression) - 1, -1, -1):
-            print("Exp", expression[i])
             if expression[i] in b_operators:  # Binary operator
                 self.kind = BINARY
                 self.name = expression[i]
                 #At this point, i should be 0
                 #len(epression[0:0]
                 if len(expression[:i]) == 0:
-                    print("About to fail")
-                    print(expression)
-                    print(i)
 
-                    print(expression[:i])
                     raise ParserException(
                         u"Expected left operand for '%s'" % self.name)
 

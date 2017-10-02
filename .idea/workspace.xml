@@ -4,7 +4,6 @@
     <list default="true" id="7ad042de-6754-49a8-be1a-d20fb9af3c71" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/relational/parser.py" afterPath="$PROJECT_DIR$/relational/parser.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/relational/relation.py" afterPath="$PROJECT_DIR$/relational/relation.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/relational_readline/linegui.py" afterPath="$PROJECT_DIR$/relational_readline/linegui.py" />
     </list>
     <ignored path="relational.iws" />
@@ -29,22 +28,22 @@
     <favorites_list name="relational" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="relation.py" pinned="false" current-in-tab="true">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="relation.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/relational/relation.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.4825">
-              <caret line="136" column="21" selection-start-line="136" selection-start-column="21" selection-end-line="136" selection-end-column="21" />
+            <state vertical-scroll-proportion="-3.6296296">
+              <caret line="382" column="22" selection-start-line="382" selection-start-column="20" selection-end-line="382" selection-end-column="22" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="linegui.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="linegui.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/relational_readline/linegui.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="339" column="31" selection-start-line="339" selection-start-column="31" selection-end-line="339" selection-end-column="31" />
+            <state vertical-scroll-proportion="0.73898304">
+              <caret line="341" column="14" selection-start-line="341" selection-start-column="14" selection-end-line="341" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -53,22 +52,22 @@
       <file leaf-file-name="parser.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/relational/parser.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.9259257">
-              <caret line="418" column="4" selection-start-line="418" selection-start-column="4" selection-end-line="418" selection-end-column="4" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="154" column="41" selection-start-line="154" selection-start-column="41" selection-end-line="154" selection-end-column="41" />
               <folding>
                 <element signature="e#1013#1058#0" expanded="true" />
-                <marker date="1506909232000" expanded="true" signature="2469:6720" placeholder="..." />
-                <marker date="1506909232000" expanded="true" signature="3204:3226" placeholder="..." />
-                <marker date="1506909232000" expanded="true" signature="6933:6935" placeholder="..." />
-                <marker date="1506909232000" expanded="true" signature="7257:7259" placeholder="..." />
-                <marker date="1506909232000" expanded="true" signature="8080:8088" placeholder="..." />
-                <marker date="1506909232000" expanded="true" signature="8571:8573" placeholder="..." />
-                <marker date="1506909232000" expanded="true" signature="8962:8967" placeholder="..." />
-                <marker date="1506909232000" expanded="true" signature="11619:11661" placeholder="..." />
-                <marker date="1506909232000" expanded="true" signature="12470:12482" placeholder="..." />
-                <marker date="1506909232000" expanded="true" signature="13032:13036" placeholder="..." />
-                <marker date="1506909232000" expanded="true" signature="15355:15359" placeholder="..." />
-                <marker date="1506909232000" expanded="true" signature="15551:15555" placeholder="..." />
+                <marker date="1506959265000" expanded="true" signature="2469:6446" placeholder="..." />
+                <marker date="1506959265000" expanded="true" signature="3204:3226" placeholder="..." />
+                <marker date="1506959265000" expanded="true" signature="6659:6661" placeholder="..." />
+                <marker date="1506959265000" expanded="true" signature="6983:6985" placeholder="..." />
+                <marker date="1506959265000" expanded="true" signature="7806:7814" placeholder="..." />
+                <marker date="1506959265000" expanded="true" signature="8297:8299" placeholder="..." />
+                <marker date="1506959265000" expanded="true" signature="8688:8693" placeholder="..." />
+                <marker date="1506959265000" expanded="true" signature="11345:11387" placeholder="..." />
+                <marker date="1506959265000" expanded="true" signature="12196:12208" placeholder="..." />
+                <marker date="1506959265000" expanded="true" signature="12758:12762" placeholder="..." />
+                <marker date="1506959265000" expanded="true" signature="15081:15085" placeholder="..." />
+                <marker date="1506959265000" expanded="true" signature="15277:15281" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -78,7 +77,7 @@
         <entry file="file://$PROJECT_DIR$/samples/people.csv">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+              <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
               <folding />
             </state>
           </provider>
@@ -88,7 +87,7 @@
         <entry file="file://$PROJECT_DIR$/samples/skills.csv">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
+              <caret line="13" column="7" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -125,8 +124,8 @@
         <option value="$PROJECT_DIR$/samples/rooms.csv" />
         <option value="$PROJECT_DIR$/samples/skills.csv" />
         <option value="$PROJECT_DIR$/samples/people.csv" />
-        <option value="$PROJECT_DIR$/relational/parser.py" />
         <option value="$PROJECT_DIR$/relational/relation.py" />
+        <option value="$PROJECT_DIR$/relational/parser.py" />
         <option value="$PROJECT_DIR$/relational_readline/linegui.py" />
       </list>
     </option>
@@ -165,7 +164,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -229,6 +227,7 @@
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -331,6 +330,11 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
@@ -487,24 +491,24 @@
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2536349" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25767368" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37671232" sideWeight="0.43537965" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32054794" sideWeight="0.4644588" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.49676898" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972136" sideWeight="0.49676898" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.5218579" sideWeight="0.45153475" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.49676898" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37671232" sideWeight="0.5646204" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.49676898" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.5218579" sideWeight="0.54846525" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972136" sideWeight="0.49676898" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32054794" sideWeight="0.7108239" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.49676898" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -527,6 +531,76 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/relational/relation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/relational_readline/linegui.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="339" column="66" selection-start-line="339" selection-start-column="66" selection-end-line="339" selection-end-column="66" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/relational/parser.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="158" column="0" selection-start-line="158" selection-start-column="0" selection-end-line="158" selection-end-column="0" />
+          <folding>
+            <element signature="e#1013#1058#0" expanded="true" />
+            <marker date="1506959265000" expanded="true" signature="2469:6446" placeholder="..." />
+            <marker date="1506959265000" expanded="true" signature="3204:3226" placeholder="..." />
+            <marker date="1506959265000" expanded="true" signature="6659:6661" placeholder="..." />
+            <marker date="1506959265000" expanded="true" signature="6983:6985" placeholder="..." />
+            <marker date="1506959265000" expanded="true" signature="7806:7814" placeholder="..." />
+            <marker date="1506959265000" expanded="true" signature="8297:8299" placeholder="..." />
+            <marker date="1506959265000" expanded="true" signature="8688:8693" placeholder="..." />
+            <marker date="1506959265000" expanded="true" signature="11345:11387" placeholder="..." />
+            <marker date="1506959265000" expanded="true" signature="12196:12208" placeholder="..." />
+            <marker date="1506959265000" expanded="true" signature="12758:12762" placeholder="..." />
+            <marker date="1506959265000" expanded="true" signature="15081:15085" placeholder="..." />
+            <marker date="1506959265000" expanded="true" signature="15277:15281" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/samples/people.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/samples/skills.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="13" column="7" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/samples/rooms.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="10" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/samples/ratings.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/relational/maintenance.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.40966922">
@@ -539,7 +613,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -559,40 +632,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/relational/parser.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.9259257">
-          <caret line="418" column="4" selection-start-line="418" selection-start-column="4" selection-end-line="418" selection-end-column="4" />
-          <folding>
-            <element signature="e#1013#1058#0" expanded="true" />
-            <marker date="1506909232000" expanded="true" signature="2469:6720" placeholder="..." />
-            <marker date="1506909232000" expanded="true" signature="3204:3226" placeholder="..." />
-            <marker date="1506909232000" expanded="true" signature="6933:6935" placeholder="..." />
-            <marker date="1506909232000" expanded="true" signature="7257:7259" placeholder="..." />
-            <marker date="1506909232000" expanded="true" signature="8080:8088" placeholder="..." />
-            <marker date="1506909232000" expanded="true" signature="8571:8573" placeholder="..." />
-            <marker date="1506909232000" expanded="true" signature="8962:8967" placeholder="..." />
-            <marker date="1506909232000" expanded="true" signature="11619:11661" placeholder="..." />
-            <marker date="1506909232000" expanded="true" signature="12470:12482" placeholder="..." />
-            <marker date="1506909232000" expanded="true" signature="13032:13036" placeholder="..." />
-            <marker date="1506909232000" expanded="true" signature="15355:15359" placeholder="..." />
-            <marker date="1506909232000" expanded="true" signature="15551:15555" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/samples/people.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/relational_readline/linegui.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="339" column="31" selection-start-line="339" selection-start-column="31" selection-end-line="339" selection-end-column="31" />
+          <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
           <folding />
         </state>
       </provider>
@@ -600,15 +643,45 @@
     <entry file="file://$PROJECT_DIR$/samples/skills.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
+          <caret line="13" column="7" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/relational/relation.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4825">
-          <caret line="136" column="21" selection-start-line="136" selection-start-column="21" selection-end-line="136" selection-end-column="21" />
+        <state vertical-scroll-proportion="-3.6296296">
+          <caret line="382" column="22" selection-start-line="382" selection-start-column="20" selection-end-line="382" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/relational/parser.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="154" column="41" selection-start-line="154" selection-start-column="41" selection-end-line="154" selection-end-column="41" />
+          <folding>
+            <element signature="e#1013#1058#0" expanded="true" />
+            <marker date="1506959265000" expanded="true" signature="2469:6446" placeholder="..." />
+            <marker date="1506959265000" expanded="true" signature="3204:3226" placeholder="..." />
+            <marker date="1506959265000" expanded="true" signature="6659:6661" placeholder="..." />
+            <marker date="1506959265000" expanded="true" signature="6983:6985" placeholder="..." />
+            <marker date="1506959265000" expanded="true" signature="7806:7814" placeholder="..." />
+            <marker date="1506959265000" expanded="true" signature="8297:8299" placeholder="..." />
+            <marker date="1506959265000" expanded="true" signature="8688:8693" placeholder="..." />
+            <marker date="1506959265000" expanded="true" signature="11345:11387" placeholder="..." />
+            <marker date="1506959265000" expanded="true" signature="12196:12208" placeholder="..." />
+            <marker date="1506959265000" expanded="true" signature="12758:12762" placeholder="..." />
+            <marker date="1506959265000" expanded="true" signature="15081:15085" placeholder="..." />
+            <marker date="1506959265000" expanded="true" signature="15277:15281" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/relational_readline/linegui.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.73898304">
+          <caret line="341" column="14" selection-start-line="341" selection-start-column="14" selection-end-line="341" selection-end-column="14" />
           <folding />
         </state>
       </provider>
