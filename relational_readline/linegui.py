@@ -318,12 +318,33 @@ def exec_query(command: str) -> None:
         command += table
         command += ")"
 
+    if "semijoin" in command:
+        command = command.strip()
+        idx = command.find('semijoin',0)
+        #expecting string like: semijoin(table1,table2,list_of_fields) with or without spaces
+        #convert to string like: table1, _SEMIJOIN, table2 (list_of_fields)
+        first_part = command[:idx] #don't change. Q1 = select(....
+        last_part = command[idx:]
+        idx2 = last_part.find('(',0)
+        operator = last_part[:idx2].strip() #operator = "semijoin"
+        rest_q = last_part[idx2+1:]
+        rest_q = rest_q.split(",")
+        table_name1 = rest_q[0].strip()
+        table_name2 = rest_q[1].strip()
+        list_of_fields = rest_q[2][:-1].strip()
+        first_command = table_name1 + " semijoin " + table_name2
+        print("First", first_command)
+        tree = parser.tree(first_command)
+        print("Tree", tree)
+        print(relations[table_name1])
+        relations[table_name1].semijoin(relations[table_name2],list_of_fields)
+        return
+
     # Performs replacements for weird operators
     command = replacements(command)
     # Finds the name in where to save the query
     parts = command.split('=', 1)
     relname,query = maintenance.UserInterface.split_query(command)
-    print("Query:", query)
     # Manipulate the query before it goes into parser.parse
     # Execute query
 

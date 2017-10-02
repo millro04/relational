@@ -129,6 +129,20 @@ class Node:
 
         '''
 
+
+        people semijoin skills (id=skill_id)
+
+        if semijoin in str:
+            #parse the input up in 2 parts:
+                1) "people semijoin skills"
+                2) fieldStr = id=skills_id
+
+
+            1) Build the node from part 1
+            2) Keep as is
+            3) Call relation.semijoin(node.left, node.right, fieldStr)
+
+
         [x, semijoin, y]
         '''
         # Expression from right to left, searching for binary operators
@@ -413,6 +427,7 @@ def parse(expr: str) -> CallableString:
     CallableString (a string that can be called) whith the corresponding
     Python expression.
     '''
+    print("Tree", (tree(expr)))
     return tree(expr).toPython()
 
 if __name__ == "__main__":

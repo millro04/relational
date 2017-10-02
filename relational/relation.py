@@ -377,13 +377,10 @@ class Relation (object):
 
         return newt
 
-#    def semijoin(self, other: 'Relation', expr: str) -> 'Relation':
-    def semijoin(self, other: 'Relation') -> 'Relation':
+    def semijoin(self, other: 'Relation', expr: str) -> 'Relation':
+    #def semijoin(self, other: 'Relation') -> 'Relation':
         s_headers = tuple(set(self.header))
-        print(s_headers)
-        return self.product(other)
-
-            #.selection(expr).projection(s_headers)
+        return self.product(other).selection(expr).projection(s_headers)
 
 
 

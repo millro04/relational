@@ -3,8 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="7ad042de-6754-49a8-be1a-d20fb9af3c71" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/relational/parser.py" afterPath="$PROJECT_DIR$/relational/parser.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/relational/relation.py" afterPath="$PROJECT_DIR$/relational/relation.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/samples/skills.csv" afterPath="$PROJECT_DIR$/samples/skills.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/relational_readline/linegui.py" afterPath="$PROJECT_DIR$/relational_readline/linegui.py" />
     </list>
     <ignored path="relational.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -29,35 +30,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="relation.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="relation.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/relational/relation.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="382" column="24" selection-start-line="382" selection-start-column="24" selection-end-line="382" selection-end-column="24" />
+            <state vertical-scroll-proportion="0.4825">
+              <caret line="136" column="21" selection-start-line="136" selection-start-column="21" selection-end-line="136" selection-end-column="21" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="parser.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/relational/parser.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.305">
-              <caret line="114" column="31" selection-start-line="114" selection-start-column="31" selection-end-line="114" selection-end-column="31" />
-              <folding>
-                <marker date="1506633773000" expanded="true" signature="2469:6371" placeholder="..." />
-                <marker date="1506633773000" expanded="true" signature="3204:3226" placeholder="..." />
-                <marker date="1506633773000" expanded="true" signature="6584:6586" placeholder="..." />
-                <marker date="1506633773000" expanded="true" signature="6908:6910" placeholder="..." />
-                <marker date="1506633773000" expanded="true" signature="7731:7739" placeholder="..." />
-                <marker date="1506633773000" expanded="true" signature="8222:8224" placeholder="..." />
-                <marker date="1506633773000" expanded="true" signature="8613:8618" placeholder="..." />
-                <marker date="1506633773000" expanded="true" signature="11270:11312" placeholder="..." />
-                <marker date="1506633773000" expanded="true" signature="12121:12133" placeholder="..." />
-                <marker date="1506633773000" expanded="true" signature="12683:12687" placeholder="..." />
-                <marker date="1506633773000" expanded="true" signature="15006:15010" placeholder="..." />
-                <marker date="1506633773000" expanded="true" signature="15202:15206" placeholder="..." />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -65,9 +43,33 @@
       <file leaf-file-name="linegui.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/relational_readline/linegui.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-9.148149">
-              <caret line="337" column="27" selection-start-line="337" selection-start-column="27" selection-end-line="337" selection-end-column="27" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="339" column="31" selection-start-line="339" selection-start-column="31" selection-end-line="339" selection-end-column="31" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="parser.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/relational/parser.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-4.9259257">
+              <caret line="418" column="4" selection-start-line="418" selection-start-column="4" selection-end-line="418" selection-end-column="4" />
+              <folding>
+                <element signature="e#1013#1058#0" expanded="true" />
+                <marker date="1506909232000" expanded="true" signature="2469:6720" placeholder="..." />
+                <marker date="1506909232000" expanded="true" signature="3204:3226" placeholder="..." />
+                <marker date="1506909232000" expanded="true" signature="6933:6935" placeholder="..." />
+                <marker date="1506909232000" expanded="true" signature="7257:7259" placeholder="..." />
+                <marker date="1506909232000" expanded="true" signature="8080:8088" placeholder="..." />
+                <marker date="1506909232000" expanded="true" signature="8571:8573" placeholder="..." />
+                <marker date="1506909232000" expanded="true" signature="8962:8967" placeholder="..." />
+                <marker date="1506909232000" expanded="true" signature="11619:11661" placeholder="..." />
+                <marker date="1506909232000" expanded="true" signature="12470:12482" placeholder="..." />
+                <marker date="1506909232000" expanded="true" signature="13032:13036" placeholder="..." />
+                <marker date="1506909232000" expanded="true" signature="15355:15359" placeholder="..." />
+                <marker date="1506909232000" expanded="true" signature="15551:15555" placeholder="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -76,7 +78,7 @@
         <entry file="file://$PROJECT_DIR$/samples/people.csv">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+              <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -86,7 +88,7 @@
         <entry file="file://$PROJECT_DIR$/samples/skills.csv">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="7" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="7" />
+              <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
               <folding />
             </state>
           </provider>
@@ -121,10 +123,11 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/samples/rooms.csv" />
-        <option value="$PROJECT_DIR$/relational/parser.py" />
-        <option value="$PROJECT_DIR$/relational_readline/linegui.py" />
-        <option value="$PROJECT_DIR$/relational/relation.py" />
         <option value="$PROJECT_DIR$/samples/skills.csv" />
+        <option value="$PROJECT_DIR$/samples/people.csv" />
+        <option value="$PROJECT_DIR$/relational/parser.py" />
+        <option value="$PROJECT_DIR$/relational/relation.py" />
+        <option value="$PROJECT_DIR$/relational_readline/linegui.py" />
       </list>
     </option>
   </component>
@@ -486,14 +489,14 @@
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2536349" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37671232" sideWeight="0.43214864" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37671232" sideWeight="0.43537965" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42328766" sideWeight="0.4676898" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32054794" sideWeight="0.4644588" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.49676898" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972136" sideWeight="0.49676898" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37671232" sideWeight="0.56785136" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37671232" sideWeight="0.5646204" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.49676898" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -509,10 +512,17 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/relational/parser.py</url>
+          <line>26</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="1" />
+      <option name="time" value="3" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -549,18 +559,40 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/relational/relation.py">
+    <entry file="file://$PROJECT_DIR$/relational/parser.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.9259257">
+          <caret line="418" column="4" selection-start-line="418" selection-start-column="4" selection-end-line="418" selection-end-column="4" />
+          <folding>
+            <element signature="e#1013#1058#0" expanded="true" />
+            <marker date="1506909232000" expanded="true" signature="2469:6720" placeholder="..." />
+            <marker date="1506909232000" expanded="true" signature="3204:3226" placeholder="..." />
+            <marker date="1506909232000" expanded="true" signature="6933:6935" placeholder="..." />
+            <marker date="1506909232000" expanded="true" signature="7257:7259" placeholder="..." />
+            <marker date="1506909232000" expanded="true" signature="8080:8088" placeholder="..." />
+            <marker date="1506909232000" expanded="true" signature="8571:8573" placeholder="..." />
+            <marker date="1506909232000" expanded="true" signature="8962:8967" placeholder="..." />
+            <marker date="1506909232000" expanded="true" signature="11619:11661" placeholder="..." />
+            <marker date="1506909232000" expanded="true" signature="12470:12482" placeholder="..." />
+            <marker date="1506909232000" expanded="true" signature="13032:13036" placeholder="..." />
+            <marker date="1506909232000" expanded="true" signature="15355:15359" placeholder="..." />
+            <marker date="1506909232000" expanded="true" signature="15551:15555" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/samples/people.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="382" column="24" selection-start-line="382" selection-start-column="24" selection-end-line="382" selection-end-column="24" />
+          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/relational_readline/linegui.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.148149">
-          <caret line="337" column="27" selection-start-line="337" selection-start-column="27" selection-end-line="337" selection-end-column="27" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="339" column="31" selection-start-line="339" selection-start-column="31" selection-end-line="339" selection-end-column="31" />
           <folding />
         </state>
       </provider>
@@ -568,37 +600,16 @@
     <entry file="file://$PROJECT_DIR$/samples/skills.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="7" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="7" />
+          <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/samples/people.csv">
+    <entry file="file://$PROJECT_DIR$/relational/relation.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.4825">
+          <caret line="136" column="21" selection-start-line="136" selection-start-column="21" selection-end-line="136" selection-end-column="21" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/relational/parser.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.305">
-          <caret line="114" column="31" selection-start-line="114" selection-start-column="31" selection-end-line="114" selection-end-column="31" />
-          <folding>
-            <marker date="1506633773000" expanded="true" signature="2469:6371" placeholder="..." />
-            <marker date="1506633773000" expanded="true" signature="3204:3226" placeholder="..." />
-            <marker date="1506633773000" expanded="true" signature="6584:6586" placeholder="..." />
-            <marker date="1506633773000" expanded="true" signature="6908:6910" placeholder="..." />
-            <marker date="1506633773000" expanded="true" signature="7731:7739" placeholder="..." />
-            <marker date="1506633773000" expanded="true" signature="8222:8224" placeholder="..." />
-            <marker date="1506633773000" expanded="true" signature="8613:8618" placeholder="..." />
-            <marker date="1506633773000" expanded="true" signature="11270:11312" placeholder="..." />
-            <marker date="1506633773000" expanded="true" signature="12121:12133" placeholder="..." />
-            <marker date="1506633773000" expanded="true" signature="12683:12687" placeholder="..." />
-            <marker date="1506633773000" expanded="true" signature="15006:15010" placeholder="..." />
-            <marker date="1506633773000" expanded="true" signature="15202:15206" placeholder="..." />
-          </folding>
         </state>
       </provider>
     </entry>
